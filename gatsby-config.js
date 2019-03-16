@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Laura's K-Pop Page`,
   },
+  pathPrefix: "/diy-app",
   plugins: [
     
     {
