@@ -4,6 +4,12 @@ import { StaticQuery, Link, graphql } from "gatsby"
 
 import { rhythm } from "../utils/typography"
 
+const ListLink = props => (
+  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
+    <Link to={props.to}>{props.children}</Link>
+  </li>
+)
+
 export default ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -36,14 +42,13 @@ export default ({ children }) => (
             {data.site.siteMetadata.title}
           </h3>
         </Link>
-        <Link
-          to={`/about/`}
-          css={css`
-            float: right;
-          `}
-        >
-          About
-        </Link>
+        <ul style={{ listStyle: `none`, float: `right` }}>
+        <ListLink to="/">Home</ListLink>
+        <ListLink to="/about/">About</ListLink>
+        <ListLink to="/favoritegroups/">My Favorite Groups</ListLink>
+      </ul>
+
+
         {children}
       </div>
     )}

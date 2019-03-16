@@ -5,16 +5,27 @@ import Layout from "../components/layout"
 
 export default ({ data }) => (
   <Layout>
-    <h1>About Me </h1> 
+    <h1>My favorite groups </h1> 
     <p>
-     My name is Laura Berrios Nieves, I'm 23 years old and am currently a 
-     student at DePaul University studying Information Technology. As you
-     can tell from my page, I am a huge K-Pop fan. My taste mostly includes 
-     girl groups but evry now and then I find a good boy group song. K-Pop 
-     gets a lot of hate because of their annoying fanbase, but if you look 
-     past that, you could see how amazing K-Pop truly is. My page is all about 
-     my favorite songs that I recommend. I hope you enjoy my page and find a 
-     new artist you might like. 
+     - RED VELVET <br></br>
+     - EXO <br></br>
+     - LOONA <br></br>
+     - GIRLS GENERATION <br></br>
+     - KARA <br></br>
+     - T-ARA <br></br>
+     - FROMIS_9 <br></br>
+     - APRIL <br></br>
+     - WJSN <br></br>
+     - OH MY GIRL <br></br>
+     - EXID <br></br>
+     - BLACKPINK <br></br>
+     - GFRIEND <br></br>
+     - CLC <br></br>
+     - SISTAR <br></br>
+     - (G)I-DLE <br></br>
+     - TWICE <br></br>
+     - DREAMCATCHER <br></br>
+     - and many more...
     </p>
   </Layout>
 )
